@@ -51,4 +51,14 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:indeterminate="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute"
+        android:id="@+id/muteSwitch"
+        android:checked="false"
+        android:background="#ff6db2"
+        android:layout_above="@+id/soundSeekBar"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
